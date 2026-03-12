@@ -73,9 +73,3 @@ ATTACKS = {
 
 During indirect injection testing, attacks that embedded instructions inside structured data (transaction logs, research abstracts, feedback forms) consistently failed silently — the model processed the legitimate content without flagging the injected instructions. Attacks using more explicit or conversational injection language were more likely to be detected and refused. This suggests structured data injection represents a higher residual risk than explicit instruction injection against well-aligned models.
 
-## References
-
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications)
-- [MITRE ATLAS](https://atlas.mitre.org)
-- [Greshake et al. — Indirect Prompt Injection (2023)](https://arxiv.org/abs/2302.12173)
-- [Carlini et al. — Extracting Training Data from LLMs (2021)](https://arxiv.org/abs/2012.07805)
